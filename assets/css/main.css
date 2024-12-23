@@ -2506,14 +2506,6 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
-		.button.smallfit {
-			font-size: 0.8em;
-			width: 10%;
-		}
-
 		input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
