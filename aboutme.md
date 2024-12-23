@@ -1,3 +1,9 @@
+---
+title: About me
+layout: template
+filename: aboutme.md
+--- 
+
 <!DOCTYPE html>
 <html lang="en">
 
