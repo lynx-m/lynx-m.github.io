@@ -2511,7 +2511,7 @@ input, select, textarea {
 		input[type="button"].small,
 		.button.smallfit {
 			font-size: 0.8em;
-			width: 2em;
+			width: 10%;
 		}
 
 		input[type="submit"].large,
