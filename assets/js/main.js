@@ -262,7 +262,6 @@
 	// Collapsible
 			var coll = document.getElementsByClassName("collapsible");
 			var i;
-			i=0;
 
 			for (i = 0; i < coll.length; i++) {
 			  coll[i].addEventListener("click", function() {
