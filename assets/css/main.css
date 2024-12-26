@@ -2297,7 +2297,7 @@ button,
     background-color: #eee;
     color: #ffe8e8;
     cursor: pointer;
-    padding: 18px;
+    padding: 5 18px;
     width: 100%;
     border: none;
     text-align: left;
@@ -2311,7 +2311,7 @@ button,
 
     /* Style the collapsible content. Note: hidden by default */
     #collapsiblecontent {
-        padding: 0 18px;
+        padding: 5 18px;
         display: none;
         overflow: hidden;
         background-color: #f1f1f1;}
