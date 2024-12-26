@@ -2310,8 +2310,8 @@ button,
         }
 
     /* Style the collapsible content. Note: hidden by default */
-collcontent {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;}
+    collcontent {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;}
