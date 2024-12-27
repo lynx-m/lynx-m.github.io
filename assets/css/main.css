@@ -1418,7 +1418,6 @@ ul.contact {
 ul.pagination {
   cursor: default;
   list-style: none;
-  text-align: center;
   padding-left: 0; }
   ul.pagination li {
     display: inline-block;
