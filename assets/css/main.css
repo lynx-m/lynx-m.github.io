@@ -2297,7 +2297,7 @@ button,
     background-color: #ffffff;
     color: #ffe8e8;
     cursor: pointer;
-    padding: 5 18px;
+    padding: 0 18px 18px 0;
     width: 100%;
     border: none;
     text-align: left;
