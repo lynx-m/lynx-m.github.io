@@ -2316,4 +2316,4 @@ button,
         overflow: hidden;
         background-color: #ffffff;}
 
-collapsible + collapsible { margin-top: 10px; }
+button + button { margin-top: 10px; }
