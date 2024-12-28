@@ -2295,7 +2295,7 @@ button,
 
 .collapsible {
     background-color: #ffffff;
-    border: none
+    border-color: #ffffff;
     color: #ffe8e8;
     cursor: pointer;
     padding: 0 18px;
