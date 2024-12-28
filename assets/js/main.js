@@ -293,9 +293,4 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
-			const handlePrint = () => window.print();
-			const btnPrint = document.getElementById('print');
-			console.log(btnPrint)
-			// (onClick='handlePrint()')
-
 })(jQuery);
