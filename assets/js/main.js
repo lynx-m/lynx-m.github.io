@@ -295,6 +295,6 @@
 
 			var but = document.getElementsByClassName("onclick")
 			for (i = 0; i < but.length; i++) {
-			  but[i].addEventListener("click", plusDivs)}
+			  but[i].addEventListener("click", plusDivs(+1))}
 
 })(jQuery);
