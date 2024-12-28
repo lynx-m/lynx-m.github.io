@@ -293,8 +293,4 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
-			var but = document.getElementsByClassName("onclick")
-			for (i = 0; i < but.length; i++) {
-			  but[i].addEventListener("click", plusDivs())}
-
 })(jQuery);
