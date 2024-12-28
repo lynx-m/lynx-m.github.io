@@ -293,10 +293,6 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
-	button.addEventListener("onclick", clickFunction);
-
-	function clickFunction() {
-	  plusDivs(+1);
-	}
+			button.addEventListener("click", plusDivs);
 
 })(jQuery);
