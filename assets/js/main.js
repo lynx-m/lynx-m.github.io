@@ -293,6 +293,6 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
-			button.addEventListener("click", plusDivs);
+			button.addEventListener("click", plusDivs(+1));
 
 })(jQuery);
