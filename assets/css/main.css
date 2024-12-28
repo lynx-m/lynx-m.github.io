@@ -2315,3 +2315,5 @@ button,
         display: none;
         overflow: hidden;
         background-color: #ffffff;}
+
+collapsible + collapsible { margin-top: 10px; }
