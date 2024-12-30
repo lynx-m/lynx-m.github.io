@@ -99,7 +99,8 @@ body {
   }
   
   .left ,
-  .right {
+  .right,
+  .right_adjust{
     vertical-align: top;
     display: inline-block;
   }
@@ -111,6 +112,11 @@ body {
   .right {
     tex-align: right;
     width: 39%;    
+  }
+
+  .right_adjust {
+    tex-align: right;
+    width: 50%;    
   }
   
   .name {
