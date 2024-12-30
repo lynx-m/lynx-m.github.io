@@ -276,7 +276,7 @@
 			}
 
 			var slideIndex = 1;
-			//showDivs(slideIndex);
+			showDivs(slideIndex);
 			
 			function plusDivs(n) {
 				slideIndex =slideIndex + n;
@@ -286,8 +286,8 @@
 			function showDivs(n) {
 			  var i;
 			  var x = document.getElementsByClassName("mySlides");
-			  if (n > x.length) {slideIndex = 1}
-			  if (n < 1) {slideIndex = x.length}
+			  if (n > x.length) {slideIndex = 1;}
+			  if (n < 1) {slideIndex = x.length;}
 			  for (i = 0; i < x.length; i++) {
 			    x[i].style.display = "none";
 			  }
