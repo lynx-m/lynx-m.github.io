@@ -275,11 +275,12 @@
 			  });
 			}
 
-			var slideIndex = 1;
+			var slideIndex = 2;
 			showDivs(slideIndex);
 			
 			function plusDivs(n) {
-			  showDivs(slideIndex += n);
+			  slideIndex += n;
+			  showDivs(slideIndex);
 			}
 			
 			function showDivs(n) {
