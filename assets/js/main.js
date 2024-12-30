@@ -276,7 +276,7 @@
 			}
 
 			var slideIndex = 1;
-			showDivs(slideIndex+1);
+			showDivs(slideIndex);
 			
 			function plusDivs(n) {
 			  showDivs(slideIndex += n);
@@ -290,7 +290,7 @@
 			  for (i = 0; i < x.length; i++) {
 			    x[i].style.display = "none";
 			  }
-			  x[slideIndex-1].style.display = "block";
+			  x[n-1].style.display = "block";
 			}
 
 })(jQuery);
