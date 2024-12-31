@@ -284,7 +284,6 @@
 			}
 			
 			function showDivs(n) {
-			  plusDivs(1);
 			  var i;
 			  var x = document.getElementsByClassName("mySlides");
 			  if (n > x.length) {slideIndex = 1;}
@@ -294,7 +293,8 @@
 			  }
 			  x[slideIndex-1].style.display = "block";
 			}
-
+	
+			plusDivs(1);
 			//showDivs(slideIndex);
 
 })(jQuery);
