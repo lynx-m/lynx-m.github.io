@@ -105,12 +105,12 @@ body {
   }
   
   .left {
-    width: 30%;    
+    width: 50%;    
   }
   
   .right {
     text-align: right;
-    width: 69%;    
+    width: 50%;    
   }
   
   .name {
@@ -156,4 +156,7 @@ body {
   }
 }
 
+.desc {
+  padding: 0 0 0 20px
+}
 
