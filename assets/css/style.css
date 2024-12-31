@@ -110,12 +110,12 @@ body {
   }
   
   .right {
-    tex-align: right;
+    text-align: right;
     width: 39%;    
   }
 
   .right_adjust {
-    tex-align: right;
+    text-align: right;
     width: 50%;  
   }
   
