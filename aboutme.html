@@ -139,9 +139,18 @@
 											<img class="mySlides" src="/images/project1.jpeg" />
 											<img class="mySlides" src="/images/project2.jpg" />
 											<img class="mySlides" src="/images/project3.jpg" />
+
+											addEventListener("click",plusDivs(+1));
 		
-											<button class="w3-button w3-display-left" onclick="plusDivs(-1);">&#10094;</button>
-											<button class="w3-button w3-display-right" onclick="plusDivs(+1);">&#10095;</button>
+											<button class="w3-button w3-display-left">&#10094;</button>
+											<button class="w3-button w3-display-right">&#10095;</button>
+
+											<script>
+												const element = document.getElementByClass("w3-button w3-display-left");
+												element.addEventListener("click", plusDivs(-1));
+												const element = document.getElementByClass("w3-button w3-display-right");
+												element.addEventListener("click", plusDivs(+1));
+											</script>
 							
 										</div>
 
