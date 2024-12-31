@@ -276,7 +276,7 @@
 			}
 
 			var slideIndex = 1;
-			showDivs(slideIndex);
+			//showDivs(slideIndex);
 			
 			function plusDivs(n) {
 				slideIndex =slideIndex + n;
@@ -294,7 +294,7 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
-			var y = document.getElementsByClassName("plusDivs");
+			var y = button.getElementsByClassName("w3-button w3-display-right");
 			for (i=0; i < y.length; i++) {
 				y[i].addEventListener("click",plusDivs(+1));
 			}
