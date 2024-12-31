@@ -278,6 +278,8 @@
 			var slideIndex = 1;
 			showDivs(slideIndex);
 			
+			
+			var n;
 			function plusDivs(n) {
 				slideIndex =slideIndex + n;
 				showDivs(slideIndex);
