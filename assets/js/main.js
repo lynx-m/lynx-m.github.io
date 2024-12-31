@@ -268,7 +268,7 @@
 				this.classList.toggle("active");
 				var content = this.nextElementSibling;
 				if (content.style.display === "block") {
-				  content.style.display = "none";
+				  content.style.display = "none"; 
 				} else {
 				  content.style.display = "block";
 				}
@@ -276,16 +276,15 @@
 			}
 
 			var slideIndex = 1;
-			showDivs(slideIndex);
-			
-			
 			var n;
+	
 			function plusDivs(n) {
 				slideIndex =slideIndex + n;
 				showDivs(slideIndex);
 			}
 			
 			function showDivs(n) {
+			  plusDivs(1);
 			  var i;
 			  var x = document.getElementsByClassName("mySlides");
 			  if (n > x.length) {slideIndex = 1;}
@@ -295,5 +294,7 @@
 			  }
 			  x[slideIndex-1].style.display = "block";
 			}
+
+			showDivs(slideIndex);
 
 })(jQuery);
