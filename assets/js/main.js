@@ -295,6 +295,6 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
-			showDivs(slideIndex);
+			//showDivs(slideIndex);
 
 })(jQuery);
