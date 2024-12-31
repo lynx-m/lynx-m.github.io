@@ -145,9 +145,9 @@
 
 											<script>
 												const element = document.getElementByClass("w3-button w3-display-left");
-												element.addEventListener("click", alert("k"),false);
+												element.addEventListener("click", function() {alert("k");});
 												const element2 = document.getElementByClass("w3-button w3-display-right");
-												element2.addEventListener("click", showDivs(3),false);
+												element2.addEventListener("click", function () {showDivs(3);});
 											</script>
 							
 										</div>
