@@ -294,4 +294,9 @@
 			  x[slideIndex-1].style.display = "block";
 			}
 
+			var y = document.getElementsByClassName("plusDivs");
+			for (i=0; i < y.length; i++) {
+				y[i].addEventListener("click",plusDivs(+1));
+			}
+
 })(jQuery);
