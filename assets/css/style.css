@@ -106,7 +106,7 @@ body {
   }
   
   .left {
-    width: 60%;    
+    width: 30%;    
   }
   
   .right {
@@ -116,7 +116,7 @@ body {
 
   .right_adjust {
     text-align: right;
-    width: 50%;  
+    width: 60%;  
   }
   
   .name {
