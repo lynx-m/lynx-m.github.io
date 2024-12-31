@@ -116,7 +116,7 @@ body {
 
   .right_adjust {
     tex-align: right;
-    width: 0%;  
+    width: 100%;  
   }
   
   .name {
